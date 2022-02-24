@@ -5,15 +5,7 @@
     "googleUrlShortenerKey": null,
     "googleAnalyticsKey": null,
     "googleAnalyticsOptions": null,
-	 "cesiumIonAccessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiI5ZDUyYzA5NS1jMDdjLTRiZGItYmU2OC1kNWE0NGUxY2ViMDQiLCJpZCI6NzQ4OTcsImlhdCI6MTYzODIwMDQ5MX0.XzJ210uD5VJMFC6aVvQGfIlcq0iTENfJBJZPslwhwII",
-	 "bingMapsKey": "AoIOZ7rMi1ZVuDSOWANc0NodVNXu4KW00QtXHLwa9oWfSlveo3mzBeFf3IEA0D1W",
-        "brandBarElements": [
-            "",
-            "<a target=\"_blank\" href=\"http://www.earthdata.ch\"><img src=\"images/earthdata_logo.png\" height=\"52\" title=\"Version: {{version}}\" /></a>",
-            ""
-        ],
-    "displayOneBrand": 1,
-	"tabbedCatalog": true,
+
     // Log ConsoleAnalytics events to console
     // logToConsole: true,
 
@@ -32,16 +24,16 @@
 
     // Pop-up disclaimer that will be shown at the start
     // The text of the disclaimer is in lib/Views/GlobalDisclaimer.html
-    "globalDisclaimer": {
-        "confirmationRequired": true,
-         "buttonTitle": "I agree",
-         "title": "Disclaimer",
+    // globalDisclaimer: {
+    //     confirmationRequired: false,
+    //     buttonTitle: "I agree",
+    //     title: "Disclaimer",
     //     // If the current browser location is not prod, or is dev, then show a "not the real site" warning.
     //     // The text of that is in lib/Views/DevelopmentDisclaimerPreamble.html
     //     //prodHostRegex: "gov.\\.au$",
     //     //devHostRegex: "\\b(staging|preview|test|dev)\\.",
-    "enableOnLocalhost": true // If false, don't show this when running on localhost
-     },
+    //     enableOnLocalhost: true // If false, don't show this when running on localhost
+    // },
 
     /*
         developerAttribution: {
@@ -49,8 +41,8 @@
             link: "http://www.example.com"
         },*/
     // This is used in various text messages. You should also set <title> in index.html
-    "appName": "Ireland's Marine Atlas",
-"storyEnabled": true,
+    "appName": "Terria Map",
+
     // See comments in lib/Views/global.scss for further information about customising colors, logos, fonts etc.
     "brandBarElements": [
       "",
@@ -58,7 +50,7 @@
       ""
     ],
     // Shown when things go wrong.
-    "supportEmail": "kellie.heney@marine.ie",
+    "supportEmail": "help@example.com",
     // You probably shouldn't change this.
     "proj4ServiceBaseUrl": "proj4def/",
     // Or this
@@ -71,7 +63,7 @@
     // Disable it if things go wrong with the experimental features or your users aren't robust to features which might change or disapear completly.
     "experimentalFeatures": true,
     // To enable welcome message when map first loads
-    "showWelcomeMessage": true,
+    // "showWelcomeMessage": true,
     // To override the welcome message video displayed on the welcome message
     // By default, the Getting Started to Terria video is displayed
     // "welcomeMessageVideo": {
@@ -81,7 +73,7 @@
     // },
 
     // True to display in-app guides.
-    "showInAppGuides": true,
+    // "showInAppGuides": false,
 
     // see `languageOverrides.json` in languages/en
     "languageConfiguration": {
@@ -145,46 +137,46 @@
           }
           // -- Uncomment to enable the following trainer guides --
           // {
-          //   "title": "stepbystepguide.satelliteimagery.title",
-          //   "footnote": "stepbystepguide.satelliteimagery.footnote",
+          //   "title": "translate#stepbystepguide.satelliteimagery.title",
+          //   "footnote": "translate#stepbystepguide.satelliteimagery.footnote",
           //   "steps": [
           //     {
-          //       "title": "stepbystepguide.satelliteimagery.step1.title",
-          //       "markdownDescription": "stepbystepguide.satelliteimagery.step1.markdownDescription"
+          //       "title": "translate#stepbystepguide.satelliteimagery.step1.title",
+          //       "markdownDescription": "translate#stepbystepguide.satelliteimagery.step1.markdownDescription"
           //     },
           //     {
-          //       "title": "stepbystepguide.satelliteimagery.step2.title",
-          //       "markdownDescription": "stepbystepguide.satelliteimagery.step2.markdownDescription"
+          //       "title": "translate#stepbystepguide.satelliteimagery.step2.title",
+          //       "markdownDescription": "translate#stepbystepguide.satelliteimagery.step2.markdownDescription"
           //     },
           //     {
-          //       "title": "stepbystepguide.satelliteimagery.step3.title",
-          //     "markdownDescription": "stepbystepguide.satelliteimagery.step3.markdownDescription"
+          //       "title": "translate#stepbystepguide.satelliteimagery.step3.title",
+          //     "markdownDescription": "translate#stepbystepguide.satelliteimagery.step3.markdownDescription"
           //     },
           //     {
-          //       "title": "stepbystepguide.satelliteimagery.step4.title",
-          //       "markdownDescription": "stepbystepguide.satelliteimagery.step4.markdownDescription"
+          //       "title": "translate#stepbystepguide.satelliteimagery.step4.title",
+          //       "markdownDescription": "translate#stepbystepguide.satelliteimagery.step4.markdownDescription"
           //     }
           //   ]
           // },
           // {
-          //   "title": "stepbystepguide.comparetimeseries.title",
-          //   "footnote": "stepbystepguide.comparetimeseries.footnote",
+          //   "title": "translate#stepbystepguide.comparetimeseries.title",
+          //   "footnote": "translate#stepbystepguide.comparetimeseries.footnote",
           //   "steps": [
           //     {
-          //       "title": "stepbystepguide.comparetimeseries.step1.title",
-          //       "markdownDescription": "stepbystepguide.comparetimeseries.step1.markdownDescription"
+          //       "title": "translate#stepbystepguide.comparetimeseries.step1.title",
+          //       "markdownDescription": "translate#stepbystepguide.comparetimeseries.step1.markdownDescription"
           //     },
           //     {
-          //       "title": "stepbystepguide.comparetimeseries.step2.title",
-          //       "markdownDescription": "stepbystepguide.comparetimeseries.step2.markdownDescription"
+          //       "title": "translate#stepbystepguide.comparetimeseries.step2.title",
+          //       "markdownDescription": "translate#stepbystepguide.comparetimeseries.step2.markdownDescription"
           //     },
           //     {
-          //       "title": "stepbystepguide.comparetimeseries.step3.title",
-          //       "markdownDescription": "stepbystepguide.comparetimeseries.step3.markdownDescription"
+          //       "title": "translate#stepbystepguide.comparetimeseries.step3.title",
+          //       "markdownDescription": "translate#stepbystepguide.comparetimeseries.step3.markdownDescription"
           //     },
           //     {
-          //       "title": "stepbystepguide.comparetimeseries.step4.title",
-          //       "markdownDescription": "stepbystepguide.comparetimeseries.step4.markdownDescription"
+          //       "title": "translate#stepbystepguide.comparetimeseries.step4.title",
+          //       "markdownDescription": "translate#stepbystepguide.comparetimeseries.step4.markdownDescription"
           //     }
           //   ]
           // }
@@ -248,7 +240,7 @@
     //       "title": "Getting started with the map",
     //       "itemName": "gettingstarted",
     //       "paneMode": "videoAndContent",
-    //       "markdownText": "# Getting started with the map\n\nIf you're new to the map or using spatial data, our Getting Started video quickly covers the basic functionality you'll need to use to add and interrogate data sets.\n\nIf you don't have time to watch the video, we suggest exploring the following areas:\n\n1. Search for a location to quickly find an area of interest\n2. Use 'Explore map data!!!!!!!' to view the catalogue of available data sets and add them to the map\n3. Interact with the data layer, including opacity and toggling on and off on the left in your workbench\n4. Click on the data on the map to view more detailed data, including the raw data\n5. Change your basemap using options in 'Map Settings' to help make some data sets more visible\n6. Zoom and change your view, including tilting the view angle using the controls on the right-hand side of the screen",
+    //       "markdownText": "# Getting started with the map\n\nIf you're new to the map or using spatial data, our Getting Started video quickly covers the basic functionality you'll need to use to add and interrogate data sets.\n\nIf you don't have time to watch the video, we suggest exploring the following areas:\n\n1. Search for a location to quickly find an area of interest\n2. Use 'Explore map data' to view the catalogue of available data sets and add them to the map\n3. Interact with the data layer, including opacity and toggling on and off on the left in your workbench\n4. Click on the data on the map to view more detailed data, including the raw data\n5. Change your basemap using options in 'Map Settings' to help make some data sets more visible\n6. Zoom and change your view, including tilting the view angle using the controls on the right-hand side of the screen",
     //       "icon": "video",
     //       "videoUrl": "https://www.youtube-nocookie.com/embed/FjSxaviSLhc",
     //       "placeholderImage": "https://img.youtube.com/vi/FjSxaviSLhc/maxresdefault.jpg"
@@ -270,7 +262,7 @@
     //                   },
     //                   {
     //                       "title": "Add the satellite imagery to the map",
-    //                       "markdownDescription": "- Open the data catalogue using \"Explore map data!!!!!!!\" button\n- Navigate through datasets to select your satellite option: Landsat or Sentinel, and daily or composite images. This can depend on resolution of the image you need (10m or 25m) and whether you want daily, 16 day composite, or annual average images\n - Select \"Add to the map\" to view the satellite imagery"
+    //                       "markdownDescription": "- Open the data catalogue using \"Explore map data\" button\n- Navigate through datasets to select your satellite option: Landsat or Sentinel, and daily or composite images. This can depend on resolution of the image you need (10m or 25m) and whether you want daily, 16 day composite, or annual average images\n - Select \"Add to the map\" to view the satellite imagery"
     //                   },
     //                   {
     //                       "title": "Filter images to find satellite imagery",
