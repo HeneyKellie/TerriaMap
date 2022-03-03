@@ -18,71 +18,62 @@ function RelatedMaps(props) {
       btnText="Related Content"
       smallScreen={props.smallScreen}
       viewState={props.viewState}
-      btnTitle="See related maps"
+      btnTitle="See related content"
       showDropdownInCenter
     >
       <div className={classNames(PanelStyles.header)}>
-        <label className={PanelStyles.heading}>Related Maps</label>
+        <label className={PanelStyles.heading}>Related Content</label>
       </div>
 
-      <p>Clicking on a map below will open it in a separate window or tab.</p>
+      <p>Clicking on a link below will open it in a separate window or tab.</p>
 
       <div className={classNames(PanelStyles.section, Styles.section)}>
-        <a target="_blank" href="http://nationalmap.gov.au/renewables/">
+        <a target="_blank" href="https://www.marine.ie/Home/home">
           <img
             className={Styles.image}
-            src={require("../../wwwroot/images/aremi.jpg")}
-            alt="AREMI"
+            src={require("../../wwwroot/images/marine.png")}
+            alt="Marine Institute"
           />
         </a>
 
         <a
           target="_blank"
           className={Styles.link}
-          href="http://nationalmap.gov.au/renewables/"
+          href="https://www.marine.ie/Home/home"
         >
-          AREMI
+          Marine Institute
         </a>
 
         <p>
-          AREMI provides access to Australian spatial data relevant to the
-          Renewable Energy industry, sourced from Government, Industry and
-          Research.
+          The state agency responsible for marine research, technology
+          development, and innovation in Ireland
         </p>
       </div>
 
       <div className={classNames(PanelStyles.section, Styles.section)}>
-        <a target="_blank" href="http://nationalmap.gov.au/northernaustralia/">
+        <a target="_blank" href="http://data.marine.ie">
           <img
             className={Styles.image}
-            src={require("../../wwwroot/images/northernaustralia.jpg")}
-            alt="Northern Australia"
+            src={require("../../wwwroot/images/datacatalog.png")}
+            alt="Marine Institute Data Catalogue"
           />
         </a>
 
         <a
           target="_blank"
           className={Styles.link}
-          href="http://nationalmap.gov.au/northernaustralia/"
+          href="http://data.marine.ie/"
         >
-          Northern Australia
+          Marine Institute Data Catalogue
         </a>
 
         <p>
-          The Northern Australia NationalMap forms part of the Government's
-          commitment to developing northern Australia by providing easy access
-          to authoritative and other spatial data on northern Australia to
-          governments, business and the public. More information on the
-          Government's White Paper on Developing Northern Australia is available
-          here:{" "}
-          <a
-            target="_blank"
-            className={Styles.link}
-            href="https://northernaustralia.dpmc.gov.au"
-          >
-            https://northernaustralia.dpmc.gov.au
-          </a>
-          .
+          The concept of the European Maritime and Fisheries Fund and of
+          Ireland's Digital Ocean programme is to integrate marine data from
+          multiple sources and representing a large range of parameters. This
+          catalogue aims to support these programmes through providing a
+          comprehensive, single discovery portal for marine data collected,
+          created and curated by a number of organisations around Ireland.
         </p>
       </div>
 

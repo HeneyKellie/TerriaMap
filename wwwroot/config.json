@@ -54,11 +54,11 @@
     // See comments in lib/Views/global.scss for further information about customising colors, logos, fonts etc.
     "brandBarElements": [
       "",
-      "<a target=\"_blank\" href=\"https://terria.io\"><img src=\"images/terria_logo.png\" height=\"52\" title=\"Version: {{version}}\" /></a>",
+      "<a target=\"_blank\" href=\"http://atlas.marine.ie\"><img src=\"images/terria_logo.jpg\" height=\"60\" title=\"Version: {{version}}\" /></a>",
       ""
     ],
     // Shown when things go wrong.
-    "supportEmail": "kellie.heney@marine.ie",
+    "supportEmail": "datarequests@marine.ie",
     // You probably shouldn't change this.
     "proj4ServiceBaseUrl": "proj4def/",
     // Or this
