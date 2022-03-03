@@ -15,7 +15,7 @@ function RelatedMaps(props) {
   return (
     <MenuPanel
       theme={dropdownTheme}
-      btnText="Related Maps"
+      btnText="Related Content"
       smallScreen={props.smallScreen}
       viewState={props.viewState}
       btnTitle="See related maps"
