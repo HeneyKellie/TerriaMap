@@ -253,7 +253,7 @@
             "cartodb-basemaps-d"
           ]
         },
-        "image": "https://raw.githubusercontent.com/TerriaJS/saas-catalogs-public/main/misc/basemaps/icons/voyager-aus.png"
+        "image": "images/basemaps/voyager.png"
       },
       {
         "item": {
@@ -263,7 +263,7 @@
           "url": "https://services.arcgisonline.com/arcgis/rest/services/Ocean/World_Ocean_Base/MapServer",
           "opacity": 1
         },
-        "image": "https://www.arcgis.com/sharing/rest/content/items/1e126e7520f9466c9ca28b8f28b5e500/info/thumbnail/thumbnail1574706730697.jpeg"
+        "image": "images/basemaps/marine.png"
       }
     ]
   }

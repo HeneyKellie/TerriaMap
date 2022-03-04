@@ -104,25 +104,44 @@ function RelatedMaps(props) {
       </div>
 
       <div className={classNames(PanelStyles.section, Styles.section)}>
-        <a target="_blank" href="http://map.aurin.org.au">
+        <a target="_blank" href="http://isde.ie">
           <img
             className={Styles.image}
-            src={require("../../wwwroot/images/aurin-map.jpg")}
-            alt="AURIN Map"
+            src={require("../../wwwroot/images/ISDE.png")}
+            alt="ISDE"
           />
         </a>
 
-        <a
-          target="_blank"
-          className={Styles.link}
-          href="http://map.aurin.org.au"
-        >
-          AURIN Map
+        <a target="_blank" className={Styles.link} href="http://isde.ie">
+          ISDE
         </a>
 
         <p>
-          AURIN Map provides access to datasets on urban infrastructure for
-          urban researchers, policy and decision makers.
+          The Irish Spatial Data Exchange (ISDE) is the spatial data catalogue
+          and repository for the publication of descriptive metadata. ISDE
+          enables users to discover what spatial data exists, how to access that
+          data, its fitness for purpose, who/when and how the data was created,
+          its geographic extent, as well as licence conditions on rights of use.
+        </p>
+      </div>
+      <div className={classNames(PanelStyles.section, Styles.section)}>
+        <a target="_blank" href="https://infomar.ie">
+          <img
+            className={Styles.image}
+            src={require("../../wwwroot/images/infomar.png")}
+            alt="INFOMAR"
+          />
+        </a>
+
+        <a target="_blank" className={Styles.link} href="https://infomar.ie">
+          INFOMAR
+        </a>
+
+        <p>
+          INFOMAR is a DECC funded joint programme between the Geological Survey
+          Ireland and the Marine Institute, surveying our unmapped marine
+          territory and creating a range of integrated mapping products of the
+          physical, chemical and biological features of the seabed.
         </p>
       </div>
     </MenuPanel>
