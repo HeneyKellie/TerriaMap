@@ -78,35 +78,28 @@ function RelatedMaps(props) {
       </div>
 
       <div className={classNames(PanelStyles.section, Styles.section)}>
-        <a target="_blank" href="http://neiiviewer.nicta.com.au">
+        <a target="_blank" href="https://marineplan.ie/">
           <img
             className={Styles.image}
-            src={require("../../wwwroot/images/neii.jpg")}
-            alt="NEII Viewer"
+            src={require("../../wwwroot/images/marineplan.png")}
+            alt="MarinePlan.ie"
           />
         </a>
 
         <a
           target="_blank"
           className={Styles.link}
-          href="http://www.neii.gov.au/viewer/"
+          href="https://marineplan.ie/"
         >
-          NEII Viewer
+          MarinePlan.ie
         </a>
 
         <p>
-          The National Environmental Information Infrastructure (NEII) is an
-          information platform designed to improve discovery, access and re-use
-          of nationally significant environmental data. More information on the
-          NEII is available here:{" "}
-          <a
-            target="_blank"
-            className={Styles.link}
-            href="http://neii.gov.au/data-viewer"
-          >
-            neii.gov.au/data-viewer
-          </a>
-          .
+          This web map portal is Ireland’s first marine spatial planning portal.
+          It links planning within the Maritime area and the relevant policies
+          for each marine sector or activity listed in the National Marine
+          Planning Framework (NMPF). The web portal is an initiative of the
+          Government of Ireland.
         </p>
       </div>
 
