@@ -189,7 +189,9 @@
       "basemap-positron",
       "basemap-darkmatter",
       "basemap-voyager",
-      "basemap-ocean"
+      "basemap-ocean",
+	  "basemap-natgeo",
+	  "basemap-osm"
     ],
     "defaultBaseMapId": "basemap-ocean",
     "previewBaseMapId": "basemap-ocean",
@@ -255,12 +257,32 @@
         },
         "image": "images/basemaps/voyager.png"
       },
+	        {
+        "item": {
+          "id": "basemap-natgeo",
+          "type": "open-street-map",
+          "name": "Water Colour",
+          "url": "http://c.tile.stamen.com/watercolor/",
+          "opacity": 1,
+        },
+        "image": "images/basemaps/voyager.png"
+      },
+	        {
+        "item": {
+          "id": "basemap-osm",
+          "type": "open-street-map",
+          "name": "Open Street Map",
+          "url": "https://tile.openstreetmap.org/",
+          "opacity": 1,
+        },
+        "image": "images/basemaps/voyager.png"
+      },	  
       {
         "item": {
           "id": "basemap-ocean",
           "type": "esri-mapServer",
           "name": "World Ocean Base",
-          "url": "https://services.arcgisonline.com/arcgis/rest/services/Ocean/World_Ocean_Base/MapServer",
+          "url": "http://services.arcgisonline.com/ArcGIS/rest/services/Ocean_Basemap/MapServer",
           "opacity": 1
         },
         "image": "images/basemaps/marine.png"
